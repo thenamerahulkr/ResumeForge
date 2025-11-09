@@ -57,12 +57,13 @@ const LandingPage = () => {
     <div className="min-h-screen" style={{ backgroundColor: 'var(--color-background)' }}>
       {/* Header */}
       <header style={{ 
-        backgroundColor: 'rgba(var(--color-background-rgb), 0.8)',
+        backgroundColor: 'var(--color-background)',
         borderBottom: '1px solid var(--color-border)',
         position: 'sticky',
         top: 0,
         zIndex: 50,
         backdropFilter: 'blur(8px)',
+        opacity: 0.95,
         borderRadius: '0 0 1.25rem 1.25rem'
       }}>
         <div style={{ maxWidth: '80rem', margin: '0 auto', padding: '0 1rem' }}>
