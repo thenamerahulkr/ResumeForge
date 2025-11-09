@@ -1,0 +1,7 @@
+services:
+  compilecv:
+    image: thenamerahulkr/compiler-cv:latest
+    container_name: compilecv-app
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
